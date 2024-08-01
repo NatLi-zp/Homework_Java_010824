@@ -10,11 +10,11 @@ public class Class1 {
 
         boolean openShop = shop1 == true || shop2 == true ? true : false;
 
-        if (shop1 == true && shop2 == true) {
+        if (shop1 && shop2) {
             System.out.println("Я могу купить еду, это  Edeka и Rewe");
-        } else if (shop1 == true) {
+        } else if (shop1) {
             System.out.println("Я могу купить еду, это  Edeka");
-        } else if (shop2 == true) {
+        } else if (shop2) {
             System.out.println("Я могу купить еду, это  Rewe");
         }
         return openShop;
